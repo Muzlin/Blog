@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2F2018%2F02%2F02%2Ftest%2F</url>
-    <content type="text"><![CDATA[#111]]></content>
+    <title><![CDATA[Hello MuzLin]]></title>
+    <url>%2F2018%2F02%2F02%2FHello-MuzLin%2F</url>
+    <content type="text"><![CDATA[Hello MuzLin 23333 23333 23333 23333 23333 23333]]></content>
+      <tags>
+        <tag>html</tag>
+      </tags>
   </entry>
 </search>
