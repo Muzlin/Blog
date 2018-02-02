@@ -3,9 +3,12 @@
   <entry>
     <title><![CDATA[Hello MuzLin]]></title>
     <url>%2F2018%2F02%2F02%2FHello-MuzLin%2F</url>
-    <content type="text"><![CDATA[Hello MuzLin 23333 23333 23333 23333 23333 23333]]></content>
+    <content type="text"><![CDATA[Hello MuzLin 23333 23333 233332333323333 23333]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
       <tags>
-        <tag>html</tag>
+        <tag>测试</tag>
       </tags>
   </entry>
 </search>

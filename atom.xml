@@ -6,11 +6,11 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.muzlin.cn/"/>
-  <updated>2018-02-02T08:44:04.781Z</updated>
+  <updated>2018-02-02T08:52:42.031Z</updated>
   <id>http://www.muzlin.cn/</id>
   
   <author>
-    <name>MuzLin李霖</name>
+    <name>MuzLin</name>
     
   </author>
   
@@ -21,22 +21,21 @@
     <link href="http://www.muzlin.cn/2018/02/02/Hello-MuzLin/"/>
     <id>http://www.muzlin.cn/2018/02/02/Hello-MuzLin/</id>
     <published>2018-02-02T08:41:42.000Z</published>
-    <updated>2018-02-02T08:44:04.781Z</updated>
+    <updated>2018-02-02T08:52:42.031Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Hello-MuzLin"><a href="#Hello-MuzLin" class="headerlink" title="Hello MuzLin"></a>Hello MuzLin</h1><blockquote><p>23333  23333   23333</p></blockquote><p>23333</p><p>23333</p><p>23333</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hello-MuzLin"><a href="#Hello-MuzLin" class="headerlink" title="Hello MuzLin"></a>Hello MuzLin</h1><blockquote><p>23333  23333   23333<br>23333<br>23333<br><a id="more"></a></p></blockquote><p>23333</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;Hello-MuzLin&quot;&gt;&lt;a href=&quot;#Hello-MuzLin&quot; class=&quot;headerlink&quot; title=&quot;Hello MuzLin&quot;&gt;&lt;/a&gt;Hello MuzLin&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;23333  23333   23
-      
+      &lt;h1 id=&quot;Hello-MuzLin&quot;&gt;&lt;a href=&quot;#Hello-MuzLin&quot; class=&quot;headerlink&quot; title=&quot;Hello MuzLin&quot;&gt;&lt;/a&gt;Hello MuzLin&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;23333  23333   23333&lt;br&gt;23333&lt;br&gt;23333&lt;br&gt;
     
     </summary>
     
+      <category term="测试" scheme="http://www.muzlin.cn/categories/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="html" scheme="http://www.muzlin.cn/tags/html/"/>
+    
+      <category term="测试" scheme="http://www.muzlin.cn/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
