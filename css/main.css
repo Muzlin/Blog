@@ -1949,7 +1949,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f961f9;
+  background: #8a50be;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3033,4 +3033,7 @@ hr {
 }
 .site-author-image {
   border-radius: 50%;
+}
+.site-title:first-letter {
+  color: c24934;
 }
