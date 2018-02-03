@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[edit test]]></title>
-    <url>%2F2018%2F02%2F03%2FteoIjib0yrPB5gVI%2F</url>
-    <content type="text"><![CDATA[test —-publish by CEditor]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello MuzLin]]></title>
-    <url>%2F2018%2F02%2F02%2FsCBqS4ZNe2o6togt%2F</url>
-    <content type="text"><![CDATA[Hello MuzLin 23333 23333 233332333323333 12345678910111213141516171819202122232425262728293031323334353637383940414243444546body &#123; background: #010101; overflow: hidden;&#125;#star &#123; position: absolute; left: 50%; top: 50%; width: 250px; height: 250px; transform: translate(-50%, -50%); border-radius: 50%; background: #DBE6E0; box-shadow: 0 0 50px rgba(219, 230, 224, 1);&#125;#planet &#123; position: absolute; left: 10px; top: 1px; width: 250px; height: 250px; border-radius: 50%; background: #010101; box-shadow: inset 0 0 50px rgba(150, 150, 150, 0.2); animation: eclipse 10s infinite linear; transform-origin: 50% 150%; transform: rotate(-60deg);&#125;@keyframes eclipse &#123; 0% &#123; transform: rotate(-60deg); &#125; 90% &#123; transform: rotate(30deg); &#125; 100% &#123; transform: rotate(300deg); &#125;&#125;@keyframes color &#123; &#125;]]></content>
+    <title><![CDATA[暗中观察:从URL输入到浏览器呈现页面]]></title>
+    <url>%2F2018%2F02%2F03%2F%E6%9A%97%E4%B8%AD%E8%A7%82%E5%AF%9F-%E4%BB%8EURL%E8%BE%93%E5%85%A5%E5%88%B0%E6%B5%8F%E8%A7%88%E5%99%A8%E5%91%88%E7%8E%B0%E9%A1%B5%E9%9D%A2%2F</url>
+    <content type="text"><![CDATA[一个网页的诞生到底发生了什么，又有什么不为人知的秘密。下面我们来简单探索一下。 DNS解析首先，要明白什么是DNS解析。我们平常说的网址、URL它并不是直接指向网站真正的地址。比如我们在浏览器输入https://www.baidu.com，它首先通过DNS解析成一个IP地址我们在命令行ping一下baidu.com这个url就可以得到它指向的IP地址，大家可以发现IP地址并不容易记忆，所以才有DNS解析，把便于记忆的URL解析成网站真正的地址，这个过程就是DNS解析。方然，这个解析过程并不像描述的这么简单，其中的东西这里暂不探究，我们只简单的梳理一下页面呈现其中的过程。 服务器处理请求前面的DNS把URl解析为IP地址浏览器向这个地址发起请求(中间涉及到TCP/HTTP/HTTPS等)，服务器接收到请求后进行处理。处理完成后返回HTTP报文到浏览器，其中的响应报文一般包含了页面渲染的html、css、js、图片等文件。 浏览器解析这时候，浏览器已经拿到了它所需要的东西，然后开始干活啦。我们平常浏览网页可以发现，如果网速慢一点网页是一点一点的加载的，这是因为浏览器一边在解析服务器返回的东西一边渲染给用户看。首先浏览器解析HTML文件构建DOM树，然后解析CSS文件构建渲染树，等到渲染树构建完成后，浏览器开始布局渲染树并将其绘制到屏幕上JS的解析是浏览器中的JS引擎去完成的。基本到这里整个过程已简单的梳理，当然其中还有许多复杂的细节我们这里暂不深究只浅显的秒速一下整个过程。]]></content>
       <categories>
-        <category>测试</category>
+        <category>前端</category>
       </categories>
       <tags>
-        <tag>测试</tag>
+        <tag>http</tag>
       </tags>
   </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.muzlin.cn/"/>
-  <updated>2018-02-03T01:56:17.593Z</updated>
+  <updated>2018-02-03T09:10:12.777Z</updated>
   <id>http://www.muzlin.cn/</id>
   
   <author>
@@ -17,49 +17,26 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>edit test</title>
-    <link href="http://www.muzlin.cn/2018/02/03/teoIjib0yrPB5gVI/"/>
-    <id>http://www.muzlin.cn/2018/02/03/teoIjib0yrPB5gVI/</id>
-    <published>2018-02-03T01:56:17.000Z</published>
-    <updated>2018-02-03T01:56:17.593Z</updated>
+    <title>暗中观察:从URL输入到浏览器呈现页面</title>
+    <link href="http://www.muzlin.cn/2018/02/03/%E6%9A%97%E4%B8%AD%E8%A7%82%E5%AF%9F-%E4%BB%8EURL%E8%BE%93%E5%85%A5%E5%88%B0%E6%B5%8F%E8%A7%88%E5%99%A8%E5%91%88%E7%8E%B0%E9%A1%B5%E9%9D%A2/"/>
+    <id>http://www.muzlin.cn/2018/02/03/暗中观察-从URL输入到浏览器呈现页面/</id>
+    <published>2018-02-03T09:05:24.000Z</published>
+    <updated>2018-02-03T09:10:12.777Z</updated>
     
-    <content type="html"><![CDATA[<p>test</p><div style="text-align:right;font-size:12px;color:#666;">—-publish by <a href="http://ceditor.alibt.top" target="_blank">CEditor</a></div>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;test&lt;/p&gt;
-&lt;div style=&quot;text-align:right;font-size:12px;color:#666;&quot;&gt;—-publish by &lt;a href=&quot;http://ceditor.alibt.top&quot; target=&quot;_blank&quot;&gt;CEditor
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello MuzLin</title>
-    <link href="http://www.muzlin.cn/2018/02/02/sCBqS4ZNe2o6togt/"/>
-    <id>http://www.muzlin.cn/2018/02/02/sCBqS4ZNe2o6togt/</id>
-    <published>2018-02-02T08:41:42.000Z</published>
-    <updated>2018-02-02T16:00:55.246Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hello MuzLin</p><blockquote><p>23333  23333   23333<br>23333<br>23333</p></blockquote><a id="more"></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">    background: #010101;</span><br><span class="line">    overflow: hidden;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#star &#123;</span><br><span class="line">    position: absolute;</span><br><span class="line">    left: 50%;</span><br><span class="line">    top: 50%;</span><br><span class="line">    width: 250px;</span><br><span class="line">    height: 250px;</span><br><span class="line">    transform: translate(-50%, -50%);</span><br><span class="line">    border-radius: 50%;</span><br><span class="line">    background: #DBE6E0;</span><br><span class="line">    box-shadow: 0 0 50px rgba(219, 230, 224, 1);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">#planet &#123;</span><br><span class="line">    position: absolute;</span><br><span class="line">    left: 10px;</span><br><span class="line">    top: 1px;</span><br><span class="line">    width: 250px;</span><br><span class="line">    height: 250px;</span><br><span class="line">    border-radius: 50%;</span><br><span class="line">    background: #010101;</span><br><span class="line">    box-shadow: inset 0 0 50px rgba(150, 150, 150, 0.2);</span><br><span class="line">    animation: eclipse 10s infinite linear;</span><br><span class="line">    transform-origin: 50% 150%;</span><br><span class="line">    transform: rotate(-60deg);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">@keyframes eclipse &#123;</span><br><span class="line">    0% &#123;</span><br><span class="line">        transform: rotate(-60deg);</span><br><span class="line">    &#125;</span><br><span class="line">    90% &#123;</span><br><span class="line">        transform: rotate(30deg);</span><br><span class="line">    &#125;</span><br><span class="line">    100% &#123;</span><br><span class="line">        transform: rotate(300deg);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">@keyframes color &#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>一个网页的诞生到底发生了什么，又有什么不为人知的秘密。<br>下面我们来简单探索一下。</p></blockquote><a id="more"></a><h3 id="DNS解析"><a href="#DNS解析" class="headerlink" title="DNS解析"></a>DNS解析</h3><p>首先，要明白什么是DNS解析。我们平常说的网址、URL它并不是直接指向网站真正的地址。比如我们在浏览器输入<code>https://www.baidu.com</code>，它首先通过DNS解析成一个IP地址<img src="http://upload-images.jianshu.io/upload_images/10423105-a3fce842887cbe10.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>我们在命令行ping一下baidu.com这个url就可以得到它指向的IP地址，大家可以发现IP地址并不容易记忆，所以才有DNS解析，把便于记忆的URL解析成网站真正的地址，这个过程就是DNS解析。方然，这个解析过程并不像描述的这么简单，其中的东西这里暂不探究，我们只简单的梳理一下页面呈现其中的过程。</p><h3 id="服务器处理请求"><a href="#服务器处理请求" class="headerlink" title="服务器处理请求"></a>服务器处理请求</h3><p>前面的DNS把URl解析为IP地址浏览器向这个地址发起请求(中间涉及到TCP/HTTP/HTTPS等)，服务器接收到请求后进行处理。处理完成后返回HTTP报文到浏览器，其中的响应报文一般包含了页面渲染的html、css、js、图片等文件。</p><h3 id="浏览器解析"><a href="#浏览器解析" class="headerlink" title="浏览器解析"></a>浏览器解析</h3><p>这时候，浏览器已经拿到了它所需要的东西，然后开始干活啦。我们平常浏览网页可以发现，如果网速慢一点网页是一点一点的加载的，这是因为浏览器一边在解析服务器返回的东西一边渲染给用户看。首先浏览器解析HTML文件构建DOM树，然后解析CSS文件构建渲染树，等到渲染树构建完成后，浏览器开始布局渲染树并将其绘制到屏幕上JS的解析是浏览器中的JS引擎去完成的。基本到这里整个过程已简单的梳理，当然其中还有许多复杂的细节我们这里暂不深究只浅显的秒速一下整个过程。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Hello MuzLin&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;23333  23333   23333&lt;br&gt;23333&lt;br&gt;23333&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;一个网页的诞生到底发生了什么，又有什么不为人知的秘密。&lt;br&gt;下面我们来简单探索一下。&lt;/p&gt;
 &lt;/blockquote&gt;
     
     </summary>
     
-      <category term="测试" scheme="http://www.muzlin.cn/categories/%E6%B5%8B%E8%AF%95/"/>
+      <category term="前端" scheme="http://www.muzlin.cn/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="测试" scheme="http://www.muzlin.cn/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="http" scheme="http://www.muzlin.cn/tags/http/"/>
     
   </entry>
   
