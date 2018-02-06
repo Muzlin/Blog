@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[HTML汇总]]></title>
+    <title><![CDATA[CSRF是什么?]]></title>
+    <url>%2F2018%2F02%2F06%2FCSRF%E6%98%AF%E4%BB%80%E4%B9%88%2F</url>
+    <content type="text"><![CDATA[跨站请求伪造（csrf）是一种劫持受信任用户向服务器发送非预期请求的攻击方式。例如，这些非预期请求可能在url后加入一些恶意的参数，从而达到攻击者的目的。 理解其他人通过csrf攻击盗用你的网站用户身份。 你这个网站用户所拥有的权限那他就都可以使用，比如用你的身份发消息、购买物品、转账等等。 原理A:用户的信任网站 B:危险网站 .成功登录A网站 这里浏览器会产生cookie .打开B网站 .B网站事先摸清了A网站的请求套路，比如转账的请求是:/zhuangzhang .此时打开B网站会有请求到A网站,并且携带了A网站的cookie .A的服务器会认为这是一个正常的处理，这样B就达到了模拟用户操作的目的 常见攻击类型 GET类型的csrf 某网站可以上传图片，然后小明上传了图片如下 &lt;img src=http://jirengu.com/csrf?xx=11 /&gt; 当用户访问到有此图片的页面时就完成了一次csrf攻击 POST类型的csrf 用户在登录他所信任的的网站之后又访问了危险网站 危险网站内有这样一段代码 1234&lt;form action=http://jirengu.com/csrf.php method=POST&gt; &lt;input type="text" name="xx" value="11" /&gt;&lt;/form&gt;&lt;script&gt; document.forms[0].submit(); &lt;/script&gt; 访问此页面后 表单就会提交 此时就完成了一次post的csrf攻击 防御 验证 HTTP Referer 字段 http协议中，http头有一个字段叫 referer ，他记录了该请求的来源。 请求验证的时候，判断请求来源是否合法，不合法就拒绝并送他一句MMP.. 但是referer是可以篡改的，就断有些浏览器无法篡改对于某些注重隐私的组织来说这种方法也不实用。 添加token csrf的原理就是伪造用户的请求，那可以制造一种不能伪造或者很难伪造的请求。 我们可以再http请求中加一个随机产生的token，在服务器验证token 如果token不合法那就送他一句MMP吧 但是这种方法也有很大缺点，比如每个请求都需要携带token增加了开发成本 而且，通过referer也可以得到token值 完csrf的危害很大，但™️ 又难于防范，并没有很完美的解决方案，只有重视才能降低伤害。]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>web安全</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[HTML笔记]]></title>
     <url>%2F2018%2F02%2F05%2FHTML%E6%B1%87%E6%80%BB%2F</url>
     <content type="text"><![CDATA[HTML(HyperText Markup Language 超文本标记语言)是用来定义网页结构的一种语言。参考一些教程在这里汇总一下，加深记忆以及方便以后查阅。 结构 开始标签（Opening tag）：包括元素的名称（在本例中，p），包裹在开始和结束尖括号中。这表示元素开始或开始生效 - 在这种情况下，表示了一个段落的开头。 结束标签（Closing tag）：这与开始标记相同，除了它在元素名称之前包含正斜杠。这表示元素结束的位置 - 在这种情况下，表示了一个段落的结尾. 没有包含结束标记是一个常见的初学者错误，并可能导致奇怪的结果。 内容（Content）：这是元素的内容，在这种情况下只是文本。 元素（Element）：开始标记，加结束标记，加内容，等于元素。 元素 块级元素和内联元素 在HTML中有两种你需要知道的重要元素类别，块级元素和内联元素。 块级元素在页面中以块的形式展现 相对与其前面的内容它会出现在新的一行，其后的内容也会被挤到下一行展现 内联元素通常出现在块级元素中并包裹文档内容的一小部分，而不是一整个段落或者一组内容，内联元素不会导致文本换行 空元素 只拥有一个标签的元素称为空元素 &lt;img src=&quot;&quot; &gt; 属性 属性包含元素的额外信息，这些信息不会出现在实际的内容中。 在上述例子中，这个class属性给元素赋了一个识别的名字（id），这个名字此后可以被用来识别此元素的样式信息和其他信息。 更多属性 HTML文档实例1234567891011&lt;!DOCTYPE html&gt;&lt;html&gt; &lt;head&gt; &lt;meta charset="utf-8"&gt; &lt;title&gt;HTML文档实例&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;我是一个标题&lt;/h1&gt; &lt;p&gt;我是一个段落&lt;/p&gt; &lt;/body&gt;&lt;/html&gt; &lt;!DOCTYPE&gt; 声明，告诉浏览器用哪个版本的html进行渲染 doctyupe 不区分大小写 但建议统一 &lt;html&gt; 根元素，包裹了真个完整的页面 &lt;head&gt; 包含了所有你想包含在HTML页面中但不想在HTML页面中显示的内容 关键字、页面描述、CSS样式、字符集声明等等 &lt;meta&gt; 设置页面的一些信息 字符集、关键字、描述等等 &lt;title&gt; 页面标题，展示在浏览器标签上 &lt;body&gt; 包含你访问页面所显示的所有内容 文本、图片、视频、音频等等 HTML常用标签 h1-h6 标题 p 段落 a 链接 div 盒子 header 头部 nav 导航 main 内容 section 区域 footer 尾部 em strong 强调文本 span 无效果的文本标签 用于css给文本添加样式 br 换行 ul ol dl 列表 pre 格式化 输出会保留空格和换行 cite q 引用 img 图片 ifame 嵌入其他页面 video audio 音频 table thead tr th/td 表格 from 表单]]></content>
       <categories>
