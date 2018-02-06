@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.muzlin.cn/"/>
-  <updated>2018-02-04T07:32:46.551Z</updated>
+  <updated>2018-02-06T02:08:05.281Z</updated>
   <id>http://www.muzlin.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML汇总</title>
+    <link href="http://www.muzlin.cn/2018/02/05/HTML%E6%B1%87%E6%80%BB/"/>
+    <id>http://www.muzlin.cn/2018/02/05/HTML汇总/</id>
+    <published>2018-02-05T08:09:57.000Z</published>
+    <updated>2018-02-06T02:08:05.281Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>HTML(HyperText Markup Language 超文本标记语言)是用来定义网页结构的一种语言。<br>参考一些教程在这里汇总一下，加深记忆以及方便以后查阅。</p></blockquote><a id="more"></a><h3 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h3><p><img src="http://p3o473ll1.bkt.clouddn.com/html-hz01.png" alt="MDN" title="图片来自MDN"></p><pre><code>开始标签（Opening tag）：包括元素的名称（在本例中，p），包裹在开始和结束尖括号中。这表示元素开始或开始生效 - 在这种情况下，表示了一个段落的开头。结束标签（Closing tag）：这与开始标记相同，除了它在元素名称之前包含正斜杠。这表示元素结束的位置 - 在这种情况下，表示了一个段落的结尾. 没有包含结束标记是一个常见的初学者错误，并可能导致奇怪的结果。内容（Content）：这是元素的内容，在这种情况下只是文本。元素（Element）：开始标记，加结束标记，加内容，等于元素。</code></pre><h3 id="元素"><a href="#元素" class="headerlink" title="元素"></a>元素</h3><ul><li><p>块级元素和内联元素</p><pre><code>在HTML中有两种你需要知道的重要元素类别，块级元素和内联元素。块级元素在页面中以块的形式展现 相对与其前面的内容它会出现在新的一行，其后的内容也会被挤到下一行展现内联元素通常出现在块级元素中并包裹文档内容的一小部分，而不是一整个段落或者一组内容，内联元素不会导致文本换行</code></pre></li><li><p>空元素</p><pre><code>只拥有一个标签的元素称为空元素&lt;img src=&quot;&quot; &gt;</code></pre></li></ul><h3 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h3><p><img src="http://p3o473ll1.bkt.clouddn.com/html-hz02.png" alt="MDN" title="图片来自MDN"></p><pre><code>属性包含元素的额外信息，这些信息不会出现在实际的内容中。在上述例子中，这个class属性给元素赋了一个识别的名字（id），这个名字此后可以被用来识别此元素的样式信息和其他信息。</code></pre><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes#translate" target="_blank" rel="noopener">更多属性</a></p><h3 id="HTML文档实例"><a href="#HTML文档实例" class="headerlink" title="HTML文档实例"></a>HTML文档实例</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>HTML文档实例<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>我是一个标题<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>我是一个段落<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li><p><code>&lt;!DOCTYPE&gt;</code></p><pre><code>声明，告诉浏览器用哪个版本的html进行渲染doctyupe 不区分大小写 但建议统一</code></pre></li><li><p><code>&lt;html&gt;</code></p><pre><code>根元素，包裹了真个完整的页面</code></pre></li><li><p><code>&lt;head&gt;</code></p><pre><code>包含了所有你想包含在HTML页面中但不想在HTML页面中显示的内容关键字、页面描述、CSS样式、字符集声明等等</code></pre></li><li><p><code>&lt;meta&gt;</code> </p><pre><code>设置页面的一些信息字符集、关键字、描述等等</code></pre></li><li><p><code>&lt;title&gt;</code></p><pre><code>页面标题，展示在浏览器标签上</code></pre></li><li><p><code>&lt;body&gt;</code></p><pre><code>包含你访问页面所显示的所有内容文本、图片、视频、音频等等</code></pre></li></ul><h3 id="HTML常用标签"><a href="#HTML常用标签" class="headerlink" title="HTML常用标签"></a>HTML常用标签</h3><ul><li>h1-h6 标题</li><li>p 段落</li><li>a 链接</li><li>div 盒子</li><li>header 头部</li><li>nav 导航</li><li>main 内容</li><li>section 区域</li><li>footer 尾部</li><li>em strong 强调文本</li><li>span 无效果的文本标签 用于css给文本添加样式</li><li>br 换行</li><li>ul ol dl 列表</li><li>pre 格式化 输出会保留空格和换行</li><li>cite q 引用</li><li>img 图片</li><li>ifame 嵌入其他页面</li><li>video audio 音频</li><li>table thead tr th/td 表格</li><li>from 表单</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;HTML(HyperText Markup Language 超文本标记语言)是用来定义网页结构的一种语言。&lt;br&gt;参考一些教程在这里汇总一下，加深记忆以及方便以后查阅。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="前端" scheme="http://www.muzlin.cn/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="html" scheme="http://www.muzlin.cn/tags/html/"/>
+    
+  </entry>
   
   <entry>
     <title>江湖菜-翠云水煮鱼</title>
