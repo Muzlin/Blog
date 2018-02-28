@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.muzlin.cn/"/>
-  <updated>2018-02-07T00:56:46.069Z</updated>
+  <updated>2018-02-28T13:46:17.472Z</updated>
   <id>http://www.muzlin.cn/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端笔记-持续更新</title>
+    <link href="http://www.muzlin.cn/2018/02/21/%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/"/>
+    <id>http://www.muzlin.cn/2018/02/21/前端笔记-持续更新/</id>
+    <published>2018-02-21T13:54:57.000Z</published>
+    <updated>2018-02-28T13:46:17.472Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前端笔记"><a href="#前端笔记" class="headerlink" title="前端笔记"></a>前端笔记</h2><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><p><strong><em>超文本标记语言(Hypertext Markup Language)</em></strong></p><ul><li><p>html 只管元素的语义 <code>e.g. &lt;p&gt;段落&lt;/p&gt; &lt;kbd&gt;键盘&lt;/kqb&gt;</code> 不管元素的样式 以及是否为块级、行内<br>  这些由css控制 除了<code>&lt;span&gt;&lt;/span&gt; &lt;div&gt;&lt;/div&gt;</code> 其它元素都有默认样式 <code>div span</code> 没有任务语义</p><blockquote><p>所以你问html某个元素是什么样式 html：滚~</p></blockquote></li></ul><a id="more"></a><ul><li></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前端笔记&quot;&gt;&lt;a href=&quot;#前端笔记&quot; class=&quot;headerlink&quot; title=&quot;前端笔记&quot;&gt;&lt;/a&gt;前端笔记&lt;/h2&gt;&lt;h3 id=&quot;HTML&quot;&gt;&lt;a href=&quot;#HTML&quot; class=&quot;headerlink&quot; title=&quot;HTML&quot;&gt;&lt;/a&gt;HTML&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;超文本标记语言(Hypertext Markup Language)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;html 只管元素的语义 &lt;code&gt;e.g. &amp;lt;p&amp;gt;段落&amp;lt;/p&amp;gt; &amp;lt;kbd&amp;gt;键盘&amp;lt;/kqb&amp;gt;&lt;/code&gt; 不管元素的样式 以及是否为块级、行内&lt;br&gt;  这些由css控制 除了&lt;code&gt;&amp;lt;span&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt; 其它元素都有默认样式 &lt;code&gt;div span&lt;/code&gt; 没有任务语义&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所以你问html某个元素是什么样式 html：滚~&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="前端" scheme="http://www.muzlin.cn/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="笔记" scheme="http://www.muzlin.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Heap/Stack 堆/栈 的简单解释</title>
